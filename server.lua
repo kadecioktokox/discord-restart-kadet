@@ -12,4 +12,4 @@ local embed= {
     }
 }
 
-PerformHttpRequest(webhook,function()end,'POST',json.encode({username="RestartINFO",content = "@everyone",embeds=embed}),{['Content-Type']='application/json'})
+PerformHttpRequest(webhook,function()end,'POST',json.encode({username="RestartINFO",content = "<@&843513655567450144>",embeds=embed}),{['Content-Type']='application/json'})
